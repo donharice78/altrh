@@ -1,0 +1,40 @@
+main {
+    font-family: "comic Sans MS";
+    text-align: center;
+    display: flex;
+    height: 100%;
+}
+
+main > div {
+    flex: 1;
+}
+
+.images > img {
+    height: 100px;
+}
+
+main > div:not(:nth-child(2)) {
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+    padding-block: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    height: 50px;
+  padding: 50px;
+  margin-top: 50px;
+    
+    
+}
+
+footer a{
+   color: white;
+   text-decoration: none;
+}
